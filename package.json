@@ -1,0 +1,15 @@
+{
+  "name": "cypress-phpcomrapadura",
+  "version": "1.0.0",
+  "description": "Testes E2E com Cypress para phpcomrapadura.org",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:home": "cypress run --spec 'cypress/e2e/01_home.cy.js'",
+    "test:artigos": "cypress run --spec 'cypress/e2e/02_artigos.cy.js'",
+    "test:busca": "cypress run --spec 'cypress/e2e/03_busca.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
